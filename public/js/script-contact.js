@@ -1,9 +1,10 @@
 function submitData() {
-  let name = document.getElementById("input-nama").value;
-  let email = document.getElementById("input-email").value;
-  let phone = document.getElementById("input-phone-number").value;
-  let subject = document.getElementById("input-subject").value;
-  let message = document.getElementById("message").value;
+
+  let name = document.getElementById("inputName").value;
+  let email = document.getElementById("inputEmail").value;
+  let phone = document.getElementById("inputPhone").value;
+  let subject = document.getElementById("inputsubject").value;
+  let message = document.getElementById("inputMessage").value;
 
   if (name == "") {
     return alert("Nama harus diisi!");
